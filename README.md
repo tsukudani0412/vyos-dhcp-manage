@@ -1,4 +1,4 @@
-# Waring!
+# Warning!
 
 Whole code is written by Cline.
 Use the following code at your own risk. I take no responsibility for any outcomes.
