@@ -1,3 +1,8 @@
+# Waring!
+
+Whole code is written by Cline.
+Use the following code at your own risk. I take no responsibility for any outcomes.
+
 # VyOS DHCP API
 
 VyOS DHCP APIは、VyOSルーターのDHCPリース情報を管理するためのWebアプリケーションです。このアプリケーションを使用すると、DHCPリースの表示や静的マッピングへの変換が簡単に行えます。
