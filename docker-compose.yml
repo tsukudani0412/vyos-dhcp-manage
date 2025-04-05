@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  vyos-dhcp-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - VYOS_API_URL=${VYOS_API_URL}
+      - VYOS_API_KEY=${VYOS_API_KEY}
+    restart: unless-stopped

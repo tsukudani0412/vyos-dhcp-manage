@@ -1,0 +1,39 @@
+# バージョン管理
+.git
+.gitignore
+
+# ビルド成果物
+.next
+out
+
+# 依存関係
+node_modules
+
+# 開発環境の設定
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# エディタの設定
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# ログ
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker関連
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# その他
+README.md
